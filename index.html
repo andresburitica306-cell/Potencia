@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Potenciador de Audio IA</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="card">
+        <h1>Potenciador de Audio</h1>
+        <p class="subtitle">Usa auriculares para evitar el eco/acople</p>
+        
+        <button id="btnStart" class="btn-primary">ENCENDER</button>
+
+        <div class="controls" id="controls" style="display: none;">
+            <label for="gainSlider">Potencia (Ganancia): <span id="gainVal">2x</span></label>
+            <input type="range" id="gainSlider" min="1" max="5" step="0.1" value="2">
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
